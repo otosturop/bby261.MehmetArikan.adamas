@@ -19,7 +19,7 @@
         
     <!-- Derleme Platformu -->
         
-    <gap:platform name="android",name="windows" />
+    <gap:platform name="android" />
         
     <!-- Ek Özellikler -->
 
