@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "me.MehmetArikan.Adam Asmaca"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- Standart Uygulama Verileri -->
+
+    <name>Asılan Adam</name>
+
+    <description>
+        Ders için üretilmiş basit bir adam asmaca oyunu
+    </description>
+
+    <author  email="mehmetarikan.ma@gmail.com">
+        Mehmet Arıkan
+    </author>
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android",name="windows" />
+        
+    <!-- Ek Özellikler -->
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+        
+    <!-- İkon -->
+     
+    <icon src="icon.png" />
+        
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>
