@@ -55,7 +55,7 @@ function tikla(hucreID)
        {
            
            if(dizi[q]==hucreID)
-            {  
+            { 
                document.getElementById("uyari").innerHTML ="harf var";
                 if(saklikelime.indexOf(" _ ") ==-1)
      
@@ -97,6 +97,11 @@ function harfyok(){
 		document.getElementById('resim').innerHTML = "";
     
     } 
+}
+
+function hide(obj) 
+{
+    obj.style.display="none";
 }
 
 
